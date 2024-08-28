@@ -73,3 +73,10 @@ button {
     font-weight: 500px;
     color: #F9FAF8;
 }
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6 4px;
+    border-radius: 16px;
+}
