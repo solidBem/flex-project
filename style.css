@@ -74,9 +74,40 @@ button {
     color: #F9FAF8;
 }
 
+.information {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 200px 86px;
+}
+
+.info-title {
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.box-group {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.unit {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
 .box {
     width: 150px;
     height: 150px;
     border: solid #3882F6 4px;
     border-radius: 16px;
+    flex-shrink: 0;
 }
+
