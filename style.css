@@ -111,3 +111,25 @@ button {
     flex-shrink: 0;
 }
 
+.grey-container {
+    background-color:#E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 300px;
+}
+
+.author {
+   align-self: flex-end;
+   font-size: 24px;
+   color:#1F2937;
+   font-weight: 600;
+}
+
+p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color:#1F2937;
+}
